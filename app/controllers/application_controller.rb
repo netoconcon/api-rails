@@ -7,3 +7,5 @@ class ApplicationController < ActionController::API
     devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :email, :password, :password_confirmation])
   end
 end
+
+# TODO design email from https://get.foundation/emails/email-templates.html
